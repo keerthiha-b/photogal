@@ -40,7 +40,7 @@ function onLoad() {
   console.log('Page loaded!');
   var prev = document.querySelectorAll('.preview');
   for (var i = 0; i < prev.length; i++) {
-      previews[i].addEventListener('mouseover', function () 
+      prev[i].addEventListener('mouseover', function () 
       {
           upDate(this);
       });
